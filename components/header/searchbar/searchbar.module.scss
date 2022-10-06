@@ -1,0 +1,60 @@
+.Shell {
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16);
+  color: #425457;
+  font-size: 32px;
+  font-size: 2rem;
+  font-family: JetSansDigital,Arial,sans-serif;
+  font-weight: 400;
+  padding: 16px;
+  justify-content: center;
+  align-content: center;
+  text-rendering: optimizeLegibility;
+  margin: 20%;
+  width: 95%;
+  z-index: 110;
+}
+
+.searchBoxWrapper {
+  width: 90%;
+  background-color: #fff;
+  z-index: 100;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+  position: relative;
+  margin: -45px auto auto;
+}
+
+.searchTitle {
+  color: #fb6100;
+  font-size: 32px;
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.searchSubtitle {
+    color: #425457;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+@media (min-width: 37.5em) {
+  .Shell {
+    z-index: 10;
+  }
+}
+
+@media only screen and (min-width: 37.5em) {
+  .Shell  {
+      max-width: 800px;
+      padding: 16px;
+      min-height: 211px;
+  }
+}

@@ -1,0 +1,43 @@
+.container {
+    background-color: white;
+    box-shadow: none;
+    display: flex;
+    width: 100%;
+    padding: 1% 20% 0 20%;
+    justify-content: space-between;
+    align-content: center;
+    max-height: 1000px;
+
+
+    .menu {
+        display: flex;
+        list-style-type: none;
+        color: black;
+        padding-top: 30px;
+        
+
+        .items {
+            padding-right: 30px;
+        }
+
+        .items:hover {
+            text-decoration: underline;
+        }
+
+    }
+}
+
+.hero {
+    background-color: transparent;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    background-image: url("/images/bg_hero-wide-uk.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-height: 1000px;
+}
